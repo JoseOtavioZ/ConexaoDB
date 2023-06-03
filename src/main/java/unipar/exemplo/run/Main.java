@@ -1,5 +1,6 @@
 package unipar.exemplo.run;
 
+import unipar.exemplo.entity.Produto;
 import unipar.exemplo.repository.cliente.ReposirotyCliente;
 import unipar.exemplo.repository.produto.RepositoryProduto;
 
@@ -9,7 +10,15 @@ public class Main {
         RepositoryProduto repo = new RepositoryProduto();
         repo.buscarProduto();
 
-        ReposirotyCliente repocliente =new ReposirotyCliente();
-        repocliente.buscarCliente();
+        Produto energetico = new Produto();
+        energetico.setCodigo(3);
+        energetico.setNome("SUCO");
+        energetico.setEan("4234234234");
+        energetico.setPreco(8d);
+
+        repo.inserirProduto(energetico);
+
+        //ReposirotyCliente repocliente =new ReposirotyCliente();
+        //repocliente.buscarCliente();
     }
 }
