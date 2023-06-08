@@ -1,7 +1,6 @@
 package unipar.exemplo.run;
 
 import unipar.exemplo.entity.Produto;
-import unipar.exemplo.repository.cliente.ReposirotyCliente;
 import unipar.exemplo.repository.produto.RepositoryProduto;
 
 public class Main {

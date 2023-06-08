@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0602cd1-0f89-4e94-9ded-e7580d8e9bf1" name="Changes" comment="Commit aula">
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/entity/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/MainCadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/TelaCadastro.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/TelaCadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/run/MainUi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/ui/TelaCadastroProduto.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/ui/TelaCadastroProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/repository/produto/RepositoryProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/repository/produto/RepositoryProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/MainCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/MainCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/TelaCadastro.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/TelaCadastro.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/TelaCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/login/TelaCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/repository/cliente/ReposirotyCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/repository/cliente/RepositoryCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/unipar/exemplo/run/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/unipar/exemplo/run/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +49,29 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "197"
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "235"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainUi">
+  <component name="RunManager" selected="Application.MainCadastro">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="unipar.exemplo.run.Main" />
       <module name="ConexaoDB" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="unipar.exemplo.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCadastro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unipar.exemplo.login.MainCadastro" />
+      <module name="ConexaoDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unipar.exemplo.login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCadastro" />
         <item itemvalue="Application.MainUi" />
         <item itemvalue="Application.Main" />
       </list>
@@ -108,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685582879726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit aula">
+      <created>1685755774473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685755774473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
